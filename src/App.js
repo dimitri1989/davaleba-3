@@ -10,9 +10,9 @@ class App extends React.Component{
   }
   changeName = () =>{
     
-      this.setState({
-        names: this.state.name ="name"
-      })
+      this.setState(
+        {name: this.state.name ="name"}
+      )
       return<h3>{(window.alert(this.state.name))}</h3>
     
   }
